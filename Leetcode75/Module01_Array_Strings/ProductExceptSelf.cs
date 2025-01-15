@@ -4,6 +4,11 @@ namespace ProductExceptSelf
 {
     public static class ProductExceptSelfSolution
     {
+        // STATS:
+        // Runtime Complexity: O(N)
+        // Runtime beats 100% of submissions (checked 15 Jan 2025)
+        // Memory Complexity: O(N + m)
+        // Memory beats 48.15% of submissions (checked 15 Jan 2025)
         public static int[] ProductExceptSelf(int[] nums)
         {
             int productOfAll = 1;
@@ -64,11 +69,6 @@ namespace ProductExceptSelf
 
 /*
 238. Product of Array Except Self
-Solved
-Medium
-Topics
-Companies
-Hint
 
 Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 

@@ -4,6 +4,11 @@ namespace MergeAlternately
 {
     public static class MergeAlternatelySolution
     {
+        // STATS:
+        // Runtime Complexity: O(N + M)
+        // Runtime beats 62.26% of submissions (checked 15 Jan 2025)
+        // Memory Complexity: O(N + m)
+        // Memory beats 48.46% of submissions (checked 15 Jan 2025)
         public static string MergeAlternately(string word1, string word2)
         {
             string merged = "";
@@ -48,11 +53,6 @@ namespace MergeAlternately
 
 /*
 1768. Merge Strings Alternately
-Solved
-Easy
-Topics
-Companies
-Hint
 
 You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
 
